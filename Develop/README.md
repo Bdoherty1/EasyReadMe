@@ -1,6 +1,6 @@
-# b
+# BD
     ## Description
-    b
+    Read me in mins
     
     ## Table of Contents
     - [Installation](#installation)
@@ -11,10 +11,10 @@
     - [Questions](#questions)
     
     ## Installation
-    b
+    install loaclly and run node index
     
     ## Usage
-    b
+    create a read me in mins
     
     ## License
   
@@ -23,12 +23,12 @@
   For more details, please see [LICENSE](LICENSE).
     
     ## Contributing
-    b
+    create a pull request
     
     ## Tests
-    b
+    install locally and run node index interminal
     
     ## Questions
-    - GitHub: [b](https://github.com/b)
-    - Email: b
+    - GitHub: [Bdoherty1](https://github.com/Bdoherty1)
+    - Email: BD@12324
   
