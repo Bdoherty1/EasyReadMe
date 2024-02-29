@@ -53,17 +53,20 @@ const questions = [{
 
 // function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFileSynnc(fileName, data);
+    fs.writeFileSync(fileName, data);
 }
 
 // initialize app
 function init() {
-inquirer
-    .createPromptModule(questions)
-    .then((answers) =>  {
-        const markdownContent = generateMarkdwon(answers);
-    })
-    .catch((error)  =>  console.log(error));
-}
+    inquirer
+        .prompt(questions)
+        .then((answers) => {
+            const markdownContent = generateMarkdown(answers);
+    
+            writeToFile('README.md', markdownContent);
+            console.log('README.md created successfully!');
+        })
+        .catch((error) => console.error(error));
+    }
 
 init();
